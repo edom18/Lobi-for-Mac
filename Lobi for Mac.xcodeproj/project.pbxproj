@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CEAC68F197643EB00865711 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEAC68E197643EB00865711 /* Cocoa.framework */; };
+		5CEAC699197643EB00865711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CEAC697197643EB00865711 /* InfoPlist.strings */; };
+		5CEAC69B197643EB00865711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC69A197643EB00865711 /* main.m */; };
+		5CEAC69F197643EB00865711 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CEAC69D197643EB00865711 /* Credits.rtf */; };
+		5CEAC6A2197643EB00865711 /* LFMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC6A1197643EB00865711 /* LFMAppDelegate.m */; };
+		5CEAC6A5197643EB00865711 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEAC6A3197643EB00865711 /* MainMenu.xib */; };
+		5CEAC6A7197643EB00865711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEAC6A6197643EB00865711 /* Images.xcassets */; };
+		5CEAC6AE197643EB00865711 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEAC6AD197643EB00865711 /* XCTest.framework */; };
+		5CEAC6AF197643EB00865711 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEAC68E197643EB00865711 /* Cocoa.framework */; };
+		5CEAC6B7197643EB00865711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CEAC6B5197643EB00865711 /* InfoPlist.strings */; };
+		5CEAC6B9197643EB00865711 /* Lobi_for_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEAC6B8197643EB00865711 /* Lobi_for_MacTests.m */; };
+		5CEAC6C3197649AC00865711 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEAC6C2197649AC00865711 /* WebKit.framework */; };
+		5CF4AFB2197E07F5000F3AB6 /* LFMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4AFB1197E07F5000F3AB6 /* LFMWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CEAC6B0197643EB00865711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEAC683197643EB00865711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEAC68A197643EB00865711;
+			remoteInfo = "Lobi for Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CEAC68B197643EB00865711 /* Lobi for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lobi for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEAC68E197643EB00865711 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CEAC691197643EB00865711 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CEAC692197643EB00865711 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CEAC693197643EB00865711 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CEAC696197643EB00865711 /* Lobi for Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lobi for Mac-Info.plist"; sourceTree = "<group>"; };
+		5CEAC698197643EB00865711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CEAC69A197643EB00865711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CEAC69C197643EB00865711 /* Lobi for Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lobi for Mac-Prefix.pch"; sourceTree = "<group>"; };
+		5CEAC69E197643EB00865711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5CEAC6A0197643EB00865711 /* LFMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFMAppDelegate.h; sourceTree = "<group>"; };
+		5CEAC6A1197643EB00865711 /* LFMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFMAppDelegate.m; sourceTree = "<group>"; };
+		5CEAC6A4197643EB00865711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CEAC6A6197643EB00865711 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CEAC6AC197643EB00865711 /* Lobi for MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lobi for MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEAC6AD197643EB00865711 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CEAC6B4197643EB00865711 /* Lobi for MacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lobi for MacTests-Info.plist"; sourceTree = "<group>"; };
+		5CEAC6B6197643EB00865711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CEAC6B8197643EB00865711 /* Lobi_for_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lobi_for_MacTests.m; sourceTree = "<group>"; };
+		5CEAC6C2197649AC00865711 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5CF4AFB0197E07F5000F3AB6 /* LFMWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMWebView.h; sourceTree = "<group>"; };
+		5CF4AFB1197E07F5000F3AB6 /* LFMWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFMWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CEAC688197643EB00865711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEAC6C3197649AC00865711 /* WebKit.framework in Frameworks */,
+				5CEAC68F197643EB00865711 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEAC6A9197643EB00865711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEAC6AF197643EB00865711 /* Cocoa.framework in Frameworks */,
+				5CEAC6AE197643EB00865711 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CEAC682197643EB00865711 = {
+			isa = PBXGroup;
+			children = (
+				5CEAC694197643EB00865711 /* Lobi for Mac */,
+				5CEAC6B2197643EB00865711 /* Lobi for MacTests */,
+				5CEAC68D197643EB00865711 /* Frameworks */,
+				5CEAC68C197643EB00865711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CEAC68C197643EB00865711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC68B197643EB00865711 /* Lobi for Mac.app */,
+				5CEAC6AC197643EB00865711 /* Lobi for MacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CEAC68D197643EB00865711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC6C2197649AC00865711 /* WebKit.framework */,
+				5CEAC68E197643EB00865711 /* Cocoa.framework */,
+				5CEAC6AD197643EB00865711 /* XCTest.framework */,
+				5CEAC690197643EB00865711 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CEAC690197643EB00865711 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC691197643EB00865711 /* AppKit.framework */,
+				5CEAC692197643EB00865711 /* CoreData.framework */,
+				5CEAC693197643EB00865711 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CEAC694197643EB00865711 /* Lobi for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC6A0197643EB00865711 /* LFMAppDelegate.h */,
+				5CEAC6A1197643EB00865711 /* LFMAppDelegate.m */,
+				5CEAC6A3197643EB00865711 /* MainMenu.xib */,
+				5CEAC6A6197643EB00865711 /* Images.xcassets */,
+				5CEAC695197643EB00865711 /* Supporting Files */,
+				5CF4AFB0197E07F5000F3AB6 /* LFMWebView.h */,
+				5CF4AFB1197E07F5000F3AB6 /* LFMWebView.m */,
+			);
+			path = "Lobi for Mac";
+			sourceTree = "<group>";
+		};
+		5CEAC695197643EB00865711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC696197643EB00865711 /* Lobi for Mac-Info.plist */,
+				5CEAC697197643EB00865711 /* InfoPlist.strings */,
+				5CEAC69A197643EB00865711 /* main.m */,
+				5CEAC69C197643EB00865711 /* Lobi for Mac-Prefix.pch */,
+				5CEAC69D197643EB00865711 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CEAC6B2197643EB00865711 /* Lobi for MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC6B8197643EB00865711 /* Lobi_for_MacTests.m */,
+				5CEAC6B3197643EB00865711 /* Supporting Files */,
+			);
+			path = "Lobi for MacTests";
+			sourceTree = "<group>";
+		};
+		5CEAC6B3197643EB00865711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CEAC6B4197643EB00865711 /* Lobi for MacTests-Info.plist */,
+				5CEAC6B5197643EB00865711 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CEAC68A197643EB00865711 /* Lobi for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEAC6BC197643EB00865711 /* Build configuration list for PBXNativeTarget "Lobi for Mac" */;
+			buildPhases = (
+				5CEAC687197643EB00865711 /* Sources */,
+				5CEAC688197643EB00865711 /* Frameworks */,
+				5CEAC689197643EB00865711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lobi for Mac";
+			productName = "Lobi for Mac";
+			productReference = 5CEAC68B197643EB00865711 /* Lobi for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CEAC6AB197643EB00865711 /* Lobi for MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEAC6BF197643EB00865711 /* Build configuration list for PBXNativeTarget "Lobi for MacTests" */;
+			buildPhases = (
+				5CEAC6A8197643EB00865711 /* Sources */,
+				5CEAC6A9197643EB00865711 /* Frameworks */,
+				5CEAC6AA197643EB00865711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CEAC6B1197643EB00865711 /* PBXTargetDependency */,
+			);
+			name = "Lobi for MacTests";
+			productName = "Lobi for MacTests";
+			productReference = 5CEAC6AC197643EB00865711 /* Lobi for MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CEAC683197643EB00865711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LFM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "比留間 和也";
+				TargetAttributes = {
+					5CEAC6AB197643EB00865711 = {
+						TestTargetID = 5CEAC68A197643EB00865711;
+					};
+				};
+			};
+			buildConfigurationList = 5CEAC686197643EB00865711 /* Build configuration list for PBXProject "Lobi for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CEAC682197643EB00865711;
+			productRefGroup = 5CEAC68C197643EB00865711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CEAC68A197643EB00865711 /* Lobi for Mac */,
+				5CEAC6AB197643EB00865711 /* Lobi for MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CEAC689197643EB00865711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEAC699197643EB00865711 /* InfoPlist.strings in Resources */,
+				5CEAC6A7197643EB00865711 /* Images.xcassets in Resources */,
+				5CEAC69F197643EB00865711 /* Credits.rtf in Resources */,
+				5CEAC6A5197643EB00865711 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEAC6AA197643EB00865711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEAC6B7197643EB00865711 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CEAC687197643EB00865711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEAC6A2197643EB00865711 /* LFMAppDelegate.m in Sources */,
+				5CF4AFB2197E07F5000F3AB6 /* LFMWebView.m in Sources */,
+				5CEAC69B197643EB00865711 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEAC6A8197643EB00865711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEAC6B9197643EB00865711 /* Lobi_for_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CEAC6B1197643EB00865711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEAC68A197643EB00865711 /* Lobi for Mac */;
+			targetProxy = 5CEAC6B0197643EB00865711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CEAC697197643EB00865711 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEAC698197643EB00865711 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CEAC69D197643EB00865711 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEAC69E197643EB00865711 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5CEAC6A3197643EB00865711 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEAC6A4197643EB00865711 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5CEAC6B5197643EB00865711 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEAC6B6197643EB00865711 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CEAC6BA197643EB00865711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CEAC6BB197643EB00865711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CEAC6BD197643EB00865711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lobi for Mac/Lobi for Mac-Prefix.pch";
+				INFOPLIST_FILE = "Lobi for Mac/Lobi for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CEAC6BE197643EB00865711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lobi for Mac/Lobi for Mac-Prefix.pch";
+				INFOPLIST_FILE = "Lobi for Mac/Lobi for Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CEAC6C0197643EB00865711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lobi for Mac.app/Contents/MacOS/Lobi for Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lobi for Mac/Lobi for Mac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lobi for MacTests/Lobi for MacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CEAC6C1197643EB00865711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lobi for Mac.app/Contents/MacOS/Lobi for Mac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lobi for Mac/Lobi for Mac-Prefix.pch";
+				INFOPLIST_FILE = "Lobi for MacTests/Lobi for MacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CEAC686197643EB00865711 /* Build configuration list for PBXProject "Lobi for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEAC6BA197643EB00865711 /* Debug */,
+				5CEAC6BB197643EB00865711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEAC6BC197643EB00865711 /* Build configuration list for PBXNativeTarget "Lobi for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEAC6BD197643EB00865711 /* Debug */,
+				5CEAC6BE197643EB00865711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEAC6BF197643EB00865711 /* Build configuration list for PBXNativeTarget "Lobi for MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEAC6C0197643EB00865711 /* Debug */,
+				5CEAC6C1197643EB00865711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CEAC683197643EB00865711 /* Project object */;
+}
